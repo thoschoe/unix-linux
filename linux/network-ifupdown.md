@@ -13,9 +13,15 @@ vim /etc/network/interfaces
 ##### Statische IP-Adresse konfigurieren
 
 ```text
-eth0
-  address: 192.168.0.1
-  netmask: 255.255.255.0
-  gateway: 192.168.0.1
-  dns
+auto lo
+iface lo inet loopback
+
+auto eht0
+iface eth0 inet static
+  address 192.168.0.2/24
+  gateway 192.168.0.1
+  dns-nameservers 1.1.1.1 8.8.8.8
+  dns-search meinnetz.lan
 ```
+Weiterführende Informationen:  
+https://wiki.ubuntuusers.de/interfaces/
