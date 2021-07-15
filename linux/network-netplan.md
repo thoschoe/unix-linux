@@ -26,7 +26,7 @@ network:
       dhcp4: no
       dhcp6: no
       # Mehrere IP-Adressen können duch Komma getrennt angegeben werden
-      addresses: [192.168.0.1/24]
+      addresses: [192.168.0.2/24]
       gateway4: 192.168.0.1
       dns-namservers:
         search: 
