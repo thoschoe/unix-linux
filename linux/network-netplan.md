@@ -28,8 +28,16 @@ network:
       # Mehrere IP-Adressen können duch Komma getrennt angegeben werden
       addresses: [192.168.0.2/24]
       gateway4: 192.168.0.1
-      dns-namservers:
-        search: 
-        nameservers: [1.1.1.1,8.8.8.8]
+      namservers:
+        addresses: [1.1.1.1,8.8.8.8]
 ```
+Konfiguration übernehmen:
+```bash
+# Konfiguration generieren
+# Ggf. auf Fehlermeldungen achten!
+netplan generate
+# Konfiguration übernehmen
+netplan apply
 
+Weiterführende Informationen:  
+https://wiki.ubuntuusers.de/Netplan/
