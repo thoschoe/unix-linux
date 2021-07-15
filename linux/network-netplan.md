@@ -38,6 +38,6 @@ Konfiguration übernehmen:
 netplan generate
 # Konfiguration übernehmen
 netplan apply
-
+```
 Weiterführende Informationen:  
 https://wiki.ubuntuusers.de/Netplan/
