@@ -17,7 +17,7 @@ Soll die Proxy-Konfiguration dauerhaft erfolgen, können die Shell-Variablen in 
 /etc/default/proxy
 
 ##### Weitere Möglichkeiten
-/etc/profile
+/etc/profile  
 /etc/bash_rc
 
 ### Proxy Server für apt
