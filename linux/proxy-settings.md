@@ -8,9 +8,7 @@ export http_proxy="http://proxy:3128"
 export https_proxy="http://proxy:3128"
 export no_proxy="meinnetz.lan"
 ```
-Soll die Proxy-Konfiguration dauerhaft erfolgen,    
-können die Shell-Variablen in entsprechenden  
-Konfigurationsdateien gesetzt werden:
+Soll die Proxy-Konfiguration dauerhaft erfolgen, können die Shell-Variablen in entsprechenden Konfigurationsdateien gesetzt werden:
 
 ##### Ubuntu/Debian
 /etc/environment
