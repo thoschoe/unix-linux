@@ -27,7 +27,7 @@ systemctl cat dienst.service
 # Abhängingkeiten anzeigen
 systemctl list-dependencies
 # Abhängikeiten eines bestimmten Dienstes anzeigen
-systemclt list-dependencies dienst.service
+systemctl list-dependencies dienst.service
 ```
 ##### Dienste ändern
 

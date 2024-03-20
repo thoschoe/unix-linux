@@ -1,4 +1,4 @@
-# BASH Skripting - Bedinungen und Schleifen
+# BASH Skripting - Bedingungen und Schleifen
 
 ### Beispiel IF-Bedingung
 
